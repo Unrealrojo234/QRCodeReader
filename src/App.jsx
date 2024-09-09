@@ -42,10 +42,9 @@ export default function App() {
       <br />
       <div style={{display:show}}>
         <h3 className="text-center ">Results</h3>
-        <br/>
         <a  href={scanResult}><h3 className="text-center">{scanResult}</h3></a>
       </div>
-      <p className="position-absolute bottom-0">&#169;2024 Rojo's Ltd | All Rights Are Reserved</p>
+      <p style={{position:'relative',top:'100vh'}}>&#169;2024 Rojo's Ltd | All Rights Are Reserved</p>
     </div>
   );
 }
